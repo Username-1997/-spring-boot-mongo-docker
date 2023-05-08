@@ -125,8 +125,8 @@ spec:
                name: springappsecrets
                key: password
          volumeMounts:
-         - name: mongodb-pvc1
-           mountPath: /data/db1
+         - name: mongodb-pvc
+           mountPath: /data/db
 ---
 apiVersion: v1
 kind: Service
